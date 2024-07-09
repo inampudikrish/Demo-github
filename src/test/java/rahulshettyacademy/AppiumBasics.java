@@ -29,9 +29,9 @@ public class AppiumBasics extends BaseTest{
 		driver.findElement(By.id("android:id/edit")).sendKeys("Rahul Wifi");
 		
 		driver.findElements(AppiumBy.className("android.widget.Button")).get(1).click();
+		driver.findElements(AppiumBy.className("android.widget.Button2")).get(1).click();
 		
-		
-		
+		driver.findElements(AppiumBy.className("android.widget.Button3")).get(1).click();
 		
 		
 		
